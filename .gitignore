@@ -1,0 +1,46 @@
+## Visual Studio / .NET
+[Bb]in/
+[Oo]bj/
+[Tt]est[Cc]onfessional/
+[Vv]isual[Ss]tudio.queries
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.sln.DotSettings.user
+
+## MonoGame
+# Content pipeline outputs
+MonoGameTest/Content/bin/
+MonoGameTest/Content/obj/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+*.idea.MonoGameTest/
+
+## VS Code
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+## NuGet
+*.nupkg
+*.snupkg
+node_modules/
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+## OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Other
+*.log
+*.tmp
+*.bak
