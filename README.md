@@ -2,7 +2,7 @@
 
 A high-performance, Unity-inspired **Entity Component System (ECS)** architecture built on **MonoGame** and **.NET 9.0**. This project is designed to provide a clean separation between game data (Components) and game logic (Systems), making it easy to scale and maintain complex game worlds.
 
-## 🚀 Key Features
+## Key Features
 
 *   **Unity-like Transform System**: Intuitive `TransformComponent` with support for local/world space transformations, direction vectors (Forward, Up, Right), and matrix calculations.
 *   **Fluent Builder API**: Easily construct complex entities and game worlds using the `EntityBuilder` and `WorldBuilder` patterns.
@@ -14,7 +14,7 @@ A high-performance, Unity-inspired **Entity Component System (ECS)** architectur
     *   **SpriteRenderSystem**: Batch-optimized 2D rendering with camera support.
 *   **AI-Ready**: Specialized `AGENTS.md` documentation in each folder to guide AI coding assistants in maintaining the project's architectural integrity.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 MonoGameTest/
@@ -26,7 +26,7 @@ MonoGameTest/
 └── World.cs         # The central ECS registry and orchestrator
 ```
 
-## 🛠 Getting Started
+## Getting Started
 
 ### Prerequisites
 *   [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
@@ -58,8 +58,5 @@ var world = new WorldBuilder()
     .Build();
 ```
 
-## 🤖 AI Assistance
+## AI Assistance
 This project is optimized for AI-assisted development. Each major folder contains an `AGENTS.md` file with specific rules, patterns, and examples for that part of the codebase.
-
----
-Built with ❤️ using MonoGame.
