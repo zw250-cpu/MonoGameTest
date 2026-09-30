@@ -58,5 +58,14 @@ var world = new WorldBuilder()
     .Build();
 ```
 
+## Controls
+
+| Key | Action |
+| --- | --- |
+| A | Move left |
+| D | Move right |
+| Space | Jump |
+| Escape | Quit |
+
 ## AI Assistance
 This project is optimized for AI-assisted development. Each major folder contains an `AGENTS.md` file with specific rules, patterns, and examples for that part of the codebase.
